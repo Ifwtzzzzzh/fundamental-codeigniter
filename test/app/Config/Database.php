@@ -29,7 +29,7 @@ class Database extends Config
         'hostname'     => 'localhost:8889',
         'username'     => 'root',
         'password'     => 'root',
-        'database'     => 'test',
+        'database'     => '202331195_Nosa',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => true,

@@ -26,7 +26,7 @@
 
 #--------------------------------------------------------------------
 
-CI_ENVIRONMENT = development
+CI_ENVIRONMENT = development # type: ignore
 
 #--------------------------------------------------------------------
 
@@ -34,11 +34,11 @@ CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 
-app.baseURL = 'http://localhost:8080'
+app.baseURL = 'http://localhost:8080' # type: ignore
 
 # If you have trouble with `.`, you could also use `_`.
 
-app.baseURL = 'http://localhost:8080'
+app.baseURL = 'http://localhost:8080' # type: ignore
 
 # app.forceGlobalSecureRequests = false
 
@@ -50,19 +50,19 @@ app.baseURL = 'http://localhost:8080'
 
 #--------------------------------------------------------------------
 
-database.default.hostname = localhost
+database.default.hostname = localhost # type: ignore
 
-database.default.database = test
+database.default.database = 202331195_Nosa # type: ignore
 
-database.default.username = root
+database.default.username = root # type: ignore
 
-database.default.password =
+database.default.password = root # type: ignore
 
-database.default.DBDriver = MySQLi
+database.default.DBDriver = MySQLi # type: ignore
 
-database.default.DBPrefix =
+database.default.DBPrefix = # type: ignore
 
-database.default.port = 8889
+database.default.port = 8889 # type: ignore
 
 # If you use MySQLi as tests, first update the values of Config\Database::$tests.
 

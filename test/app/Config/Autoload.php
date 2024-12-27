@@ -41,7 +41,9 @@ class Autoload extends AutoloadConfig
      */
     public $psr4 = [
         APP_NAMESPACE => APPPATH,
+        'MyCompany'   => ROOTPATH . 'MyCompany',
     ];
+    
 
     /**
      * -------------------------------------------------------------------
